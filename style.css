@@ -1,2 +1,220 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('font/norse-bold-webfont.woff2') format('woff2'),
+         url('font/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-family:
+		system-ui,
+		'Segoe UI',
+		Roboto,
+		Helvetica,
+		Arial,
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji'; 
+	line-height: 1.15; 
+	-webkit-text-size-adjust: 100%; 
+	tab-size: 4; 
+}
+
+body {
+	margin: 0;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+
+
+code,
+kbd,
+samp,
+pre {
+	font-family:
+		ui-monospace,
+		SFMono-Regular,
+		Consolas,
+		'Liberation Mono',
+		Menlo,
+		monospace; /* 1 */
+	font-size: 1em; /* 2 */
+}
+
+
+small {
+	font-size: 80%;
+}
+
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+
+table {
+	border-color: currentcolor;
+}
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit; /* 1 */
+	font-size: 100%; /* 1 */
+	line-height: 1.15; /* 1 */
+	margin: 0; /* 2 */
+}
+
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	-webkit-appearance: button;
+}
+
+
+legend {
+	padding: 0;
+}
+
+
+progress {
+	vertical-align: baseline;
+}
+
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+	height: auto;
+}
+
+
+[type='search'] {
+	-webkit-appearance: textfield; 
+	outline-offset: -2px; 
+}
+
+
+::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button; /* 1 */
+	font: inherit; /* 2 */
+}
+
+
+
+summary {
+	display: list-item;
+}
+
+body {
+    display: flex;
+}
+
+.leftcontainer {
+	width: 35%;
+	height: 100%;
+	
+}
+
+#leftphoto {
+	width: 100%;
+    height: 100%;    
+}
+
+.polosa {
+	background-color: rgba(0,0,0,0.5);
+	height: 15%;
+	width: 35%;
+	position: fixed;
+	top: 25%;	
+	display: flex;
+	align-items: center;	
+}
+
+.logo {
+	height: 80%;
+	width: auto;
+	margin-left: 30%;	
+}
+
+.logotext {
+ color: white !important;
+ opacity: 1;
+ font-family: 'norsebold';
+ font-size: 5rem;
+ margin: 0px;
+ display: flex;
+ align-items: center;
+ max-height: 10%;
+}
+
+.rightcontainer {
+    width: 65%;
+    min-height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		
+}
+
+.centerrightcontainer {
+	height: 70%;
+	width: 100%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: normal;
+	margin: 0;
+    font-weight: 550;
+}
+
+p {
+	margin: 0;
+}
+
+.righttext2 {
+	position: relative;
+	top: 17%;
+	left: 5%;
+}
+
+
+.righttext1 {
+	position: relative;
+	top: 0%;
+	left: 5%;
+}
+
+
 
 
