@@ -16,13 +16,43 @@
     </img>
 </div>
 <div class="rightcontainer">
-    <div class="centerrightcontainer">
-        <p class="righttext1">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
-        <p class="righttext2">You know you want to.</p>
-        <form action=""></form>
-        
-        <p></p>
+        <div class="centerrightcontainer">
+            <p class="righttext1">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p class="righttext2">Sign up now to get started.</p>
+            <p class="righttext3">You know you want to.</p>
+            <p class="righttext4">Let's do this!</p>
+            <form id="forma" onsubmit = "return checkPasswords()" action="https://store.steampowered.com/app/570/Dota_2/" method="post">
+                <fieldset>
+                    <div class="imya">
+                        <label for="firstname">FIRST NAME</label>
+                        <input type="text" class="prokol" id="firstname" minlength="4" maxlength="40" required>
+                    </div>
+                    <div class="familiya">
+                        <label for="lastname">LAST NAME</label>
+                        <input type="text" id="lastname" minlength="4" maxlength="40" required>
+                    </div>
+                    <div class="pochta">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email1" minlength="4" maxlength="40" required>
+                    </div>
+                    <div class="telefon">
+                        <label for="phonenumber">PHONE NUMBER</label>
+                        <input type="text" id="phonenumber" minlength="10" maxlength="30" required>
+                    </div>
+                    <div class="parol">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" minlength="4" id="password" required>
+                    </div>
+                    <div class="parol2">
+                        <label for="confirmpassword">CONFIRM PASSWORD</label>
+                        <input type="password" minlength="4" id="confirmpassword" required>
+                    </div>
+                </fieldset>
+            </form>
+            <button type="submit" form="forma" id="knopka">Create Account</button>
+            <p class="bottomtext">Already have an account? <a>Log in</a></p>
     </div>
 </div>
 </body>
+<script src="script.js" defer></script>
 </html>
